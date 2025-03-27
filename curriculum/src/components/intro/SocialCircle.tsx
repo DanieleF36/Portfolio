@@ -13,6 +13,8 @@ const SocialCircle: React.FC<SocialCircleProps> = ({ icon, link }) => {
     <a
       href={link}
       className="social-icon-wrapper"
+      target='_blank' 
+      rel='noopener noreferrer'
     >
       <FontAwesomeIcon icon={icon} className="social-icon" />
     </a>

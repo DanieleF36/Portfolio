@@ -10,7 +10,7 @@ const Intro = () => {
         <Row className="align-items-center">
           <Col xs={12} md={4} className="text-center mb-4 mb-md-0">
             <Image
-              src="/path/to/your-photo.jpg"
+              src="/me.JPG"
               alt="Your Photo"
               roundedCircle
               fluid
@@ -25,9 +25,9 @@ const Intro = () => {
               Engineering innovative software solutions powered by creativity, precision, and a passion for transforming ideas into reality.
             </p>
             <div className="d-flex align-items-center justify-content-center gap-3">
-              <SocialCircle icon={faGithub} link="https://github.com/tuonome" />
+              <SocialCircle icon={faGithub} link="https://github.com/DanieleF36" />
               <SocialCircle icon={faLinkedin} link="https://linkedin.com/in/tuonome" />
-              <SocialCircle icon={faEnvelope} link="mailto:tuamail@example.com" />
+              <SocialCircle icon={faEnvelope} link="mailto:daniele.femia@outlook.com" />
             </div>
           </Col>
         </Row>
