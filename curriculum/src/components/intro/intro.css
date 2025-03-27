@@ -1,0 +1,29 @@
+.separator {
+  width: 100%;
+  height: 2px;
+  background: #ffffff;
+  border: none;
+  margin: 1rem 0;
+  opacity: 1;
+}  
+
+.name-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+  
+.role-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  color: white;
+}
