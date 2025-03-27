@@ -1,0 +1,49 @@
+.social-icon-wrapper {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: visible; /* Permette al cerchio di espandersi oltre il container */
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+/* Cerchio animato che appare al passaggio del mouse */
+.social-icon-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120%;  /* Maggiore rispetto al container */
+  height: 120%; /* Maggiore rispetto al container */
+  border-radius: 50%;
+  background-color: rgba(255, 85, 212, 0.5); /* Layer rosa opaco */
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.4s ease;
+  pointer-events: none;
+  z-index: 0; /* Impostato a 0 per essere visibile, ma sotto l'icona */
+}
+
+/* Quando si passa il mouse, il cerchio si espande */
+.social-icon-wrapper:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Icona Font Awesome */
+.social-icon {
+  font-size: 2rem;
+  color: white; /* Stato normale: icona bianca */
+  transition: color 0.3s ease;
+  position: relative;
+  z-index: 1; /* Rimane sopra il pseudo-elemento */
+}
+
+/* Stato hover: l'icona diventa rosa */
+.social-icon-wrapper:hover .social-icon {
+  color: #ff55d4;
+}
