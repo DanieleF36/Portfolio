@@ -59,7 +59,7 @@ const Header = () => {
         {
           //TODO cambiare href con il mio linkedin
         }
-        <Navbar.Brand href='https://it.linkedin.com/'> 
+        <Navbar.Brand href='https://it.linkedin.com/' target='_blank' rel='noopener noreferrer'> 
           <img
             src="/path/to/logo.png"
             alt="Logo"
@@ -71,9 +71,9 @@ const Header = () => {
         <Nav className="mx-auto">
           <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#projects">Projects</Nav.Link>
-          <Nav.Link href="#slills">Slills</Nav.Link>
+          <Nav.Link href="#skills">Skills</Nav.Link>
         </Nav>
-        <Button variant="primary" href="#sezione-speciale" className="justify-content-end">
+        <Button variant="primary" href="#sezione-speciale" className="justify-content-end rounded-button">
             Hire Me
         </Button>
       </Container>
