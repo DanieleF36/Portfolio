@@ -1,13 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef  } from 'react';
 import {Navbar, Nav, Button, Container} from 'react-bootstrap';
 import './header.css'
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const navbarRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      // Get the current height of the navbar
+      const navbarHeight = navbarRef.current?.offsetHeight || 0;
+
+      if (window.scrollY > navbarHeight) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -15,7 +19,8 @@ const Header = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    
+    handleScroll();
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
