@@ -37,6 +37,9 @@ function App() {
         <section className="section" id="intro">
           <Intro />
         </section>
+        <section className="section" id="about">
+          <About />
+        </section>
       </Container>
     </>
   );

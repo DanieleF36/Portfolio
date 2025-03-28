@@ -1,0 +1,196 @@
+{
+  "unical": [
+    {
+      "name": "FONDAMENTI DI AUTOMATICA",
+      "grade": "21",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149784/"
+    },
+    {
+      "name": "ELEMENTI DI MATEMATICA COMPUTAZIONALE",
+      "grade": "25",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149748/"
+    },
+    {
+      "name": "ALGEBRA LINEARE E MATEMATICA DISCRETA",
+      "grade": "25",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149754/"
+    },
+    {
+      "name": "MATEMATICA II",
+      "grade": "30",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149795/"
+    },
+    {
+      "name": "METODI PROBABILISTICI DELLA RICERCA OPERATIVA",
+      "grade": "29",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149783/"
+    },
+    {
+      "name": "PROGRAMMAZIONE ORIENTATA AGLI OGGETTI",
+      "grade": "21",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149780/"
+    },
+    {
+      "name": "SISTEMI OPERATIVI",
+      "grade": "27",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149785/"
+    },
+    {
+      "name": "AMBIENTI DI PROGRAMMAZIONE PER IL SOFTWARE DI BASE",
+      "grade": "30",
+      "url": ""
+    },
+    {
+      "name": "BASI DI DATI",
+      "grade": "29",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/153488/"
+    },
+    {
+      "name": "ELETTRONICA DIGITALE",
+      "grade": "30L",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149851/"
+    },
+    {
+      "name": "FONDAMENTI DI RETI DI TELECOMUNICAZIONI",
+      "grade": "24",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149841/"
+    },
+    {
+      "name": "INGEGNERIA DEL SOFTWARE",
+      "grade": "27",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149854/"
+    },
+    {
+      "name": "PIATTAFORME SOFTWARE PER APPLICAZIONI SU WEB",
+      "grade": "27",
+      "url": ""
+    },
+    {
+      "name": "FISICA - MECCANICA ED ELEMENTI DI TERMODINAMICA",
+      "grade": "22",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149757/"
+    },
+    {
+      "name": "PROVA FINALE",
+      "grade": "-",
+      "url": ""
+    },
+    {
+      "name": "RETI DI CALCOLATORI",
+      "grade": "30",
+      "url": ""
+    },
+    {
+      "name": "RICERCA OPERATIVA",
+      "grade": "27",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149853/"
+    },
+    {
+      "name": "FONDAMENTI DI INFORMATICA I",
+      "grade": "30L",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149742/"
+    },
+    {
+      "name": "FONDAMENTI DI INFORMATICA II",
+      "grade": "30L",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149727/"
+    },
+    {
+      "name": "INGLESE",
+      "grade": "30",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149718/"
+    },
+    {
+      "name": "MATEMATICA I",
+      "grade": "18",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149711/"
+    },
+    {
+      "name": "RETI LOGICHE E CALCOLATORI",
+      "grade": "30",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149733/"
+    },
+    {
+      "name": "ALGORITMI E STRUTTURE DATI",
+      "grade": "30L",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149791/"
+    },
+    {
+      "name": "ELETTROMAGNETISMO ED ELETTROTECNICA",
+      "grade": "26",
+      "url": "https://dimes.unical.it/storage/cds/32349/activities/149766/"
+    }
+  ],
+  "polito": [
+    {
+      "name": "Applicazioni Web I",
+      "grade": "27",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01UDFYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Architetture dei sistemi di elaborazione",
+      "grade": "30L",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02GOLYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Cloud Computing Technologies",
+      "grade": "26",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01HFPYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Cryptography",
+      "grade": "26",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=07LPYWQ&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Data Science e Tecnologie per le Basi di Dati",
+      "grade": "26",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01SQMYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Distributed systems programming",
+      "grade": "27",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01TXZYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Formal languages and compilers",
+      "grade": "30",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02JEUYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Game design",
+      "grade": "28",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01URUYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Information systems",
+      "grade": "27",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01PDWYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Mobile application development",
+      "grade": "28",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01PFPYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Programmazione di sistema",
+      "grade": "28",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02GRSYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Sicurezza dei sistemi informativi",
+      "grade": "25",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01UDUYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Software Engineering II",
+      "grade": "30L",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=01SQNYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    },
+    {
+      "name": "Tecnologie e servizi di rete",
+      "grade": "24",
+      "url": "https://didattica.polito.it/pls/portal30/gap.pkg_guide.viewGap?p_cod_ins=02KPNYG&p_a_acc=2026&p_header=S&p_lang=IT&multi=N"
+    }
+  ]
+}

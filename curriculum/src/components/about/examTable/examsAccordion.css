@@ -1,0 +1,23 @@
+.custom-scrollbar {
+  max-height: 400px;
+  overflow-y: auto;
+}
+  
+.custom-scrollbar::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+}
+  
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+  
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--primary--vertical);
+  border-radius: 10px;
+}
+  
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
+  

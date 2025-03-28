@@ -1,6 +1,8 @@
 :root {
     --primary: linear-gradient(90deg, #FF61D8, #4CC9F0);
+    --primary--vertical: linear-gradient(0deg, #FF61D8, #4CC9F0);
     --secondary: #fd40cd;
     --secondary--rgb: 253, 64, 205;
+    --tertiary: #4CC9F0;
     --text: white;
   }

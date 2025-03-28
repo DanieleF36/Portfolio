@@ -1,0 +1,41 @@
+.about-me {
+  color: var(--secondary);
+}
+
+.text-left {
+  color: var(--text);
+  text-align: left;
+}
+
+.text {
+  color: var(--text);
+  margin-top: 2%;
+}
+
+.hover-card-secondary {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--secondary);
+  transition: transform 0.3s ease;
+}
+
+.hover-card-secondary:hover {
+  transform: scale(1.05);
+}
+
+.hover-card-tertiary{
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--tertiary);
+  transition: transform 0.3s ease;
+}
+
+.hover-card-tertiary:hover {
+  transform: scale(1.05);
+}
+
+.text-card-secondary {
+  color: var(--secondary)
+}
+
+.text-card-tertiary {
+  color: var(--tertiary)
+}
