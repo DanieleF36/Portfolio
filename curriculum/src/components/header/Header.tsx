@@ -64,13 +64,7 @@ const Header: React.FC<HeaderProps> = ({selectedLan, langs, changeLan}) => {
           //TODO cambiare href con il mio linkedin
         }
         <Navbar.Brand href='https://it.linkedin.com/' target='_blank' rel='noopener noreferrer'> 
-          <img
-            src="/path/to/logo.png"
-            alt="Logo"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />
+          DF36
         </Navbar.Brand>
         <Nav className="mx-auto">
           <Nav.Link href="#about">{t('aboutLabel')}</Nav.Link>
