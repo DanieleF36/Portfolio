@@ -17,4 +17,15 @@
 .rounded-button {
   border-radius: 50px;
   width: 8%;
+  background: var(--primary);
+  border: none;
+  transition: opacity 0.3s;
+}
+
+.rounded-button:hover {
+  border-radius: 50px;
+  width: 8%;
+  background: var(--primary);
+  border: none;
+  opacity: 0.7;
 }
