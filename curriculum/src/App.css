@@ -60,3 +60,11 @@ body {
   position: relative;
   z-index: 100;
 }
+
+.section {
+  scroll-snap-align: start;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

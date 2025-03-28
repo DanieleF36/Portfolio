@@ -3,12 +3,13 @@ import './App.css';
 import './i18n';
 
 import { Container } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 import Header from './components/header/Header';
 import Intro from './components/intro/Intro';
 import StarField from './components/intro/StarField';
 import MeteorShower from './components/intro/MeteorShower';
-import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
+import About from'./components/about/About';
 
 export interface Language {
   code: string;
@@ -31,9 +32,11 @@ function App() {
     <>
       <StarField />
       <MeteorShower />
+      <Header selectedLan={selectedLanguage} langs={languages} changeLan={changeLan}/>
       <Container fluid className='content-wrapper'>
-        <Header selectedLan={selectedLanguage} langs={languages} changeLan={changeLan}/>
-        <Intro />
+        <section className="section" id="intro">
+          <Intro />
+        </section>
       </Container>
     </>
   );
