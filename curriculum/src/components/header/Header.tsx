@@ -71,7 +71,7 @@ const Header: React.FC<HeaderProps> = ({selectedLan, langs, changeLan}) => {
           <Nav.Link href="#projects">{t('projectLabel')}</Nav.Link>
           <Nav.Link href="#skills">{t('skillsLabel')}</Nav.Link>
         </Nav>
-        <Button variant="primary" href="#sezione-speciale" className="justify-content-end rounded-button">
+        <Button variant="primary" href="mailto:daniele.femia@outlook.com" className="justify-content-end rounded-button">
           {t('hireButton')}
         </Button>
         <Dropdown>
