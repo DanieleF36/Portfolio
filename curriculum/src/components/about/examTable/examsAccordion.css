@@ -48,7 +48,6 @@
   background-color: #f1f1f1;
 }
 
-/* (mantieni i tuoi stili esistenti della scrollbar) */
 .custom-scrollbar {
   max-height: 400px;
   overflow-y: auto;
