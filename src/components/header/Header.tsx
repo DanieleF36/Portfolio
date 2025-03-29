@@ -55,10 +55,7 @@ const Header: React.FC<HeaderProps> = ({selectedLan, langs, changeLan}) => {
   return (
     <Navbar fixed='top' className={scrolled ? 'navbar-custom scrolled' : 'navbar-custom'}>
       <Container className="d-flex justify-content-between align-items-center">
-        {
-          //TODO cambiare href con il mio linkedin
-        }
-        <Navbar.Brand href='https://it.linkedin.com/' target='_blank' rel='noopener noreferrer'> 
+        <Navbar.Brand href='www.linkedin.com/in/daniele-femia-10974b359' target='_blank' rel='noopener noreferrer'> 
           DF36
         </Navbar.Brand>
         <Nav className="mx-auto">
