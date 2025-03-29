@@ -30,6 +30,7 @@ const Skills: React.FC = () => {
         {img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg", title: "MongoDB"},
         {img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg", title: "Firebase"},
         {img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg", title: "Android"},
+        {img: "./unity_logo.png", title: "Unity"},
     ]
     return (
         <Container fluid>
