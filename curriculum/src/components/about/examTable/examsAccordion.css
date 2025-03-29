@@ -1,3 +1,54 @@
+.accordion-header {
+  cursor: pointer;
+}
+
+.accordion-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.accordion-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.accordion-subtitle {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.accordion-content {
+  padding: 0;
+}
+
+.accordion-content, 
+.accordion-content td {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+}
+
+.accordion-content .collapse,
+.accordion-content .collapsing {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.accordion-header.alternate {
+  background-color: #f1f1f1;
+}
+
+/* (mantieni i tuoi stili esistenti della scrollbar) */
 .custom-scrollbar {
   max-height: 400px;
   overflow-y: auto;
@@ -20,4 +71,3 @@
 .custom-scrollbar::-webkit-scrollbar-button {
   display: none;
 }
-  
