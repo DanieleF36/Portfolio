@@ -5,6 +5,7 @@ import './ProjectCard.css';
 import { ProjectCardProps } from './ProjectCardProps'
 
 import { useTranslation } from 'react-i18next';
+import { ProjectStatus } from './Project';
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
@@ -23,7 +24,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       title={t('viewCode')}
     >
       <Card className="custom-card">
-        <Badge className="custom-badge">
+        <Badge className={status == ProjectStatus.Ongoing ? 'custom-badge-ongoing' : status == ProjectStatus.Done ? 'custom-badge-done' : 'custom-badge-project' }>
           {status}
         </Badge>
         <Card.Body className="custom-card-body">

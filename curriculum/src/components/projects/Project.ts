@@ -6,5 +6,11 @@ export interface Project {
   };
   tags: string[];
   githubLink: string;
-  status: String;
+  status: ProjectStatus;
+}
+
+export enum ProjectStatus {
+  SchoolProject = "School Project",
+  Ongoing = "Ongoing",
+  Done = "Done"
 }

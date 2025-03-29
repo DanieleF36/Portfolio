@@ -11,7 +11,7 @@ import { Project } from './Project';
 const Projects: React.FC = () => {
   const { i18n, t } = useTranslation('translation');
   const currentLang = i18n.language;
-  const projects: Project[] = projectsData.projects;
+  const projects: Project[] = (projectsData as {projects: Project[]}).projects;
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   const scrollLeft = () => {

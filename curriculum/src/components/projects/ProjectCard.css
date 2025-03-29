@@ -126,7 +126,7 @@ z-index: 10;
   -webkit-text-fill-color: transparent;
 }
 
-.custom-badge {
+.custom-badge-project {
   position: absolute;
   top: 0;
   left: 0;
@@ -134,4 +134,24 @@ z-index: 10;
   border: none;
   padding: 0.5em 1em;
   color: var(--secondary);
+}
+
+.custom-badge-ongoing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent !important;
+  border: none;
+  padding: 0.5em 1em;
+  color: yellow;
+}
+
+.custom-badge-done {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent !important;
+  border: none;
+  padding: 0.5em 1em;
+  color: green;
 }
