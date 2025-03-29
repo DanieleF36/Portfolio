@@ -9,7 +9,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const Projects: React.FC = () => {
-  const { t } = useTranslation('translation');
+  const { i18n, t } = useTranslation('translation');
+  const currentLang = i18n.language;
   const projects: ProjectCardProps[] = projectsData.projects;
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
@@ -37,7 +38,7 @@ const Projects: React.FC = () => {
             <Col key={index} xs="auto" className="scrolling-col">
               <ProjectCard 
                 title={project.title}
-                text={project.text}
+                text={typeof project.text === 'object' ? project.text[currentLang] || project.text['en'] : project.text}
                 tags={project.tags}
                 githubLink={project.githubLink}
                 status={project.status}
