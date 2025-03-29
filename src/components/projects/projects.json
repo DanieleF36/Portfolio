@@ -1,6 +1,26 @@
 {
   "projects": [
     {
+      "title": "Porfolio",
+      "text":{
+        "it": "Questo progetto, chiamato Portfolio, è questo sito, usato per presentarmi, mostrare le mie capacità e condividere tutti i miei progetti, sia completati che in corso. Il sito è stato progettato per fornire una panoramica chiara ed elegante del mio percorso professionale e delle mie competenze.",
+        "en": "This project, called Portfolio, is this website, used to introduce myself, showcase my skills, and share all my projects—both completed and in progress. The site is designed to provide a clear and elegant overview of my professional journey and expertise."
+      },
+      "tags": ["TypeScript", "CSS", "React"],
+      "githubLink": "https://github.com/DanieleF36/Curriculum",
+      "status": "Done"
+    },
+    {
+      "title": "Oniro",
+      "text":{
+        "it": "Oniro The Dreaming Chronicles è un affascinante gioco d’avventura che ti trasporta in un mondo onirico e surreale, dove i confini tra sogno e realtà si dissolvono. Realizzato come progetto di Game Design, il gioco si distingue per la sua atmosfera coinvolgente, una narrazione originale e un gameplay innovativo che stimola l’immaginazione e la creatività. Preparati a esplorare ambientazioni suggestive, risolvere enigmi intriganti e vivere un’esperienza unica in cui ogni dettaglio è curato per offrire emozioni autentiche e un’immersione totale.",
+        "en": "Oniro The Dreaming Chronicles is a captivating adventure game that transports you into a dreamlike and surreal world, where the boundaries between dreams and reality blur. Developed as a Game Design project, the game stands out for its engaging atmosphere, original narrative, and innovative gameplay that sparks imagination and creativity. Get ready to explore evocative settings, solve intriguing puzzles, and experience a unique journey where every detail is meticulously crafted to deliver authentic emotions and total immersion."
+      },
+      "tags": ["Unity", "Blender", "C#"],
+      "githubLink": "https://drive.google.com/drive/folders/1wLWrsnUn6xy6UFTQcVjPtDs7cJ42-Jr3",
+      "status": "School Project"
+    },
+    {
       "title": "SEII Main Project",
       "text": {
         "it": "Applicazione web sviluppata seguendo metodologie agili per la gestione delle tesi nel portale della didattica. Include un client React, un server API e l'integrazione con un database per la memorizzazione delle informazioni relative alle tesi.",
@@ -36,7 +56,7 @@
         "it": "CMSmall è una piattaforma completa per la gestione e la pubblicazione di contenuti web dinamici. L'applicazione offre un'interfaccia moderna basata su React e un back-end robusto per la gestione delle pagine, l'autenticazione degli utenti e l'amministrazione dei contenuti, garantendo un'esperienza intuitiva e personalizzabile.",
         "en": "CMSmall is a comprehensive platform for managing and publishing dynamic web content. The application features a modern React-based interface and a robust backend for page management, user authentication, and content administration, ensuring an intuitive and customizable experience."
       },
-      "tags": ["JavaScript", "CSS", "HTML"],
+      "tags": ["JavaScript", "CSS", "React"],
       "githubLink": "https://github.com/DanieleF36/Web-Application-1",
       "status": "School Project"
     },
