@@ -8,7 +8,6 @@ import { useState } from 'react';
 import Header from './components/header/Header';
 import Intro from './components/intro/Intro';
 import StarField from './components/intro/StarField';
-import MeteorShower from './components/intro/MeteorShower';
 import About from'./components/about/About';
 import Projects
  from './components/projects/Projects';
@@ -34,7 +33,6 @@ function App() {
   return (
     <>
       <StarField />
-      <MeteorShower />
       <Header selectedLan={selectedLanguage} langs={languages} changeLan={changeLan}/>
       <Container fluid className='content-wrapper'>
         <section className="section" id="intro">
