@@ -2,16 +2,16 @@ import React, { useRef } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import ProjectCard from './ProjectCard';
-import { ProjectCardProps } from './ProjectCardProps';
 import './projects.css';
 import projectsData from './projects.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { Project } from './Project';
 
 const Projects: React.FC = () => {
   const { i18n, t } = useTranslation('translation');
   const currentLang = i18n.language;
-  const projects: ProjectCardProps[] = projectsData.projects;
+  const projects: Project[] = projectsData.projects;
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   const scrollLeft = () => {
@@ -38,7 +38,8 @@ const Projects: React.FC = () => {
             <Col key={index} xs="auto" className="scrolling-col">
               <ProjectCard 
                 title={project.title}
-                text={typeof project.text === 'object' ? project.text[currentLang] || project.text['en'] : project.text}
+                // @ts-ignore
+                text={project.text[currentLang]}
                 tags={project.tags}
                 githubLink={project.githubLink}
                 status={project.status}
