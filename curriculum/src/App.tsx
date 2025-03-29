@@ -12,6 +12,7 @@ import MeteorShower from './components/intro/MeteorShower';
 import About from'./components/about/About';
 import Projects
  from './components/projects/Projects';
+import Skills from './components/skills/Skills';
 export interface Language {
   code: string;
   label: string;
@@ -43,6 +44,9 @@ function App() {
         </section>
         <section className="section" id="projects">
           <Projects/>
+        </section>
+        <section className="section" id="skills">
+          <Skills/>
         </section>
       </Container>
     </>

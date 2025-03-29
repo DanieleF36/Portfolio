@@ -1,0 +1,27 @@
+.custom-skill-card{
+  width: 10rem;
+  height: 10rem;
+  border: none;
+  box-shadow: 0 0 0 0.3px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  border-radius: 20;
+  background: transparent; 
+  margin-right: 2rem;
+}
+
+.custom-skill-card:hover {
+  box-shadow: 0 0 0 0.3px var(--text);
+}
+
+.title{
+  color: var(--text);
+  font-weight: bold;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  width: 64px;
+  height: auto;
+}
