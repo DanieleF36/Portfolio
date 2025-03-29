@@ -5,6 +5,17 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
 import './intro.css'
 
+/**
+ * Intro Component.
+ *
+ * This component renders an introductory section that displays:
+ * - A circular image.
+ * - The user's name and role.
+ * - An introductory text.
+ * - A set of social icons linking to GitHub, LinkedIn, and email.
+ *
+ * @returns {JSX.Element} The Intro component.
+ */
 const Intro = () => {
   const { t } = useTranslation('translation');
   return (

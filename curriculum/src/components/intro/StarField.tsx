@@ -1,5 +1,14 @@
 import { useEffect, useRef } from 'react';
 
+/**
+ * StarField Component.
+ *
+ * This component renders an animated star field on a canvas.
+ * It uses a canvas element to draw stars that move to create a parallax scrolling effect.
+ * The stars are re-positioned when they exit the canvas, and the canvas size adapts to window resize events.
+ *
+ * @returns {JSX.Element} The StarField component.
+ */
 const StarField = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 

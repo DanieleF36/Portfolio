@@ -3,6 +3,14 @@ import SkillCard from "./SkillCard";
 import "./skills.css"
 import { useTranslation } from "react-i18next";
 
+/**
+ * Skills Component.
+ *
+ * This component renders a grid of SkillCard components displaying different skills.
+ * Each skill includes an image URL and a title.
+ *
+ * @returns {JSX.Element} The Skills component.
+ */
 const Skills: React.FC = () => {
     const { t } = useTranslation('translation');
     const skills = [

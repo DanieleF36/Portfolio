@@ -5,6 +5,15 @@ import { Exam } from './exam';
 import examData from './exams.json';
 import './examsAccordion.css';
 
+/**
+ * ExamsAccordion Component.
+ * 
+ * Displays an accordion with two sections, my universities, containing exam tables.
+ * Clicking on the header row expands or collapses the corresponding section.
+ *
+ * @returns {JSX.Element} The ExamsAccordion component.
+ */
+
 const ExamsAccordion: React.FC = () => {
   const [openSection, setOpenSection] = useState<string | null>(null);
 

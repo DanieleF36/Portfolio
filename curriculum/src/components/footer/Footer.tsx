@@ -1,6 +1,15 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import './footer.css';
 
+/**
+ * Footer Component.
+ *
+ * This component renders a footer containing two columns.
+ * The first column displays design inspiration information and a link to GitHub.
+ * The second column displays contact information.
+ *
+ * @returns {JSX.Element} The Footer component.
+ */
 const Footer = () => {
   return (
     <footer className="footer">

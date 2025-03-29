@@ -7,6 +7,15 @@ import { ProjectCardProps } from './ProjectCardProps'
 import { useTranslation } from 'react-i18next';
 import { ProjectStatus } from './Project';
 
+/**
+ * ProjectCard Component.
+ *
+ * This component displays a card with project details including title, text, tags, GitHub link, and status.
+ * The card is clickable and links to the project's GitHub repository.
+ *
+ * @param {ProjectCardProps} props - The component props containing title, text, tags, GitHub link, and status.
+ * @returns {JSX.Element} The ProjectCard component.
+ */
 const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   text,

@@ -3,6 +3,15 @@ import { useTranslation } from 'react-i18next';
 import ExamsAccordion from "./examTable/ExamsAccordion";
 import './about.css'
 
+/**
+ * About Component.
+ * 
+ * This component displays a section with two columns:
+ * - The first column contains all the exams.
+ * - The second column shows information "about me".
+ *
+ * @returns {JSX.Element} The About component.
+ */
 const About = () => {
   const { t } = useTranslation('translation');
   return (

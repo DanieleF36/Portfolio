@@ -8,6 +8,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { Project } from './Project';
 
+/**
+ * Projects Component.
+ *
+ * This component renders a horizontally scrollable list of project cards.
+ * It includes navigation buttons to scroll left and right.
+ * The component retrieves project data from a JSON file and uses the current language for localized text.
+ *
+ * @returns {JSX.Element} The Projects component.
+ */
 const Projects: React.FC = () => {
   const { i18n, t } = useTranslation('translation');
   const currentLang = i18n.language;

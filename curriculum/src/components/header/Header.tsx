@@ -24,12 +24,7 @@ import './header.css'
  * - Sets up a scroll event listener (via useEffect) that compares window.scrollY with the navbar's height.
  *   If the scroll position exceeds the navbar's height, the "scrolled" state is set to true, applying the "scrolled" class.
  * - Ensures proper cleanup of the scroll event listener when the component is unmounted.
- *
- * Dependencies:
- * - React hooks (useState, useEffect, useRef)
- * - React Bootstrap components (Navbar, Nav, Button, Container)
- * - Custom CSS ("header.css") that defines the styles for "navbar-custom" and "scrolled" classes.
- *
+ * *
  * @returns {JSX.Element} The Header component with responsive scroll-based styling.
  */
 const Header: React.FC<HeaderProps> = ({selectedLan, langs, changeLan}) => {
