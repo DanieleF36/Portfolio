@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "title": "SEII Main Project",
+      "text": "Applicazione web sviluppata seguendo metodologie agili per la gestione delle tesi nel portale della didattica. Include un client React, un server API e l'integrazione con un database per la memorizzazione delle informazioni relative alle tesi.",
+      "tags": ["JavaScript", "React", "Node.js", "Express", "PostgreSQL", "Docker"],
+      "githubLink": "https://github.com/SEII-group14/SEII_Main-Project",
+      "status": "School Project"
+    },
+    {
+      "title": "Team Tracker",
+      "text": "Team Tracker è pensato per semplificare e ottimizzare la gestione dei team, fornendo uno strumento centralizzato che consente di registrare e aggiornare le informazioni sui membri, assegnare ruoli e compiti specifici, monitorare le performance e l’andamento delle attività di squadra, e generare report per facilitare il processo decisionale organizzativo.",
+      "tags": ["Kotlin"],
+      "githubLink": "https://github.com/DanieleF36/TeamTracker",
+      "status": "Ongoing"
+    },
+    {
+      "title": "DSP Exam",
+      "text": "Il progetto DSP implementa una soluzione per la gestione di sistemi distribuiti, progettata per essere modulare, scalabile e affidabile. Il sistema integra diverse componenti e favorisce la comunicazione e l'interoperabilità tra servizi distribuiti.",
+      "tags": ["JavaScript"],
+      "githubLink": "https://github.com/DanieleF36/DSP-Exam-Call1",
+      "status": "School Project"
+    },
+    {
+      "title": "Web Application 1",
+      "text": "CMSmall è una piattaforma completa per la gestione e la pubblicazione di contenuti web dinamici. L'applicazione offre un'interfaccia moderna basata su React e un back-end robusto per la gestione delle pagine, l'autenticazione degli utenti e l'amministrazione dei contenuti, garantendo un'esperienza intuitiva e personalizzabile.",
+      "tags": ["JavaScript", "CSS", "HTML"],
+      "githubLink": "https://github.com/DanieleF36/Web-Application-1",
+      "status": "School Project"
+    },
+    {
+      "title": "Snipping-Tool",
+      "text": "Project of System and device programming. A cross-platform screenshot tool developed for Windows, Linux, and macOS.",
+      "tags": ["Rust"],
+      "githubLink": "https://github.com/DanieleF36/Snipping-Tool",
+      "status": "School Project"
+    }
+  ]
+}

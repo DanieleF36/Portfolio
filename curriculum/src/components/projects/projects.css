@@ -1,0 +1,44 @@
+.project-title {
+  color: var(--secondary);
+  margin-bottom: 5rem;
+}
+    
+.scroll-wrapper {
+  width: 99.5vw;
+  margin-left: calc(-50vw + 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+    
+.scrolling-row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  padding: 0.1rem;
+}
+
+.scrolling-row::-webkit-scrollbar {
+  display: none;
+}
+.scrolling-row {
+  scrollbar-width: none;
+}
+    
+.scrolling-col {
+  flex: 0 0 auto;
+  margin-right: 5rem;
+}
+    
+.scroll-arrow {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 1rem;
+  z-index: 1;
+}    

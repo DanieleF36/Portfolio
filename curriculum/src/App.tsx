@@ -10,7 +10,8 @@ import Intro from './components/intro/Intro';
 import StarField from './components/intro/StarField';
 import MeteorShower from './components/intro/MeteorShower';
 import About from'./components/about/About';
-
+import Projects
+ from './components/projects/Projects';
 export interface Language {
   code: string;
   label: string;
@@ -39,6 +40,9 @@ function App() {
         </section>
         <section className="section" id="about">
           <About />
+        </section>
+        <section className="section" id="projects">
+          <Projects/>
         </section>
       </Container>
     </>
