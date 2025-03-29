@@ -1,0 +1,33 @@
+.footer {
+  background-color: transparent;
+  color: var(--text);
+  padding: 2rem 0;
+  margin-top: 10rem;
+  position: relative;
+}
+
+.footer-divider {
+  position: absolute;
+  top: 0;
+  left: 49%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 0.01rem;
+  background-color: rgba(var(--text--rgb), 0.3);
+}
+
+.design-link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.design-link:hover{
+  color: var(--tertiary);
+}
+
+.footer-title{
+  background: var(--primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

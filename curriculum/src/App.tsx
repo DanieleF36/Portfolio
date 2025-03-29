@@ -13,6 +13,7 @@ import About from'./components/about/About';
 import Projects
  from './components/projects/Projects';
 import Skills from './components/skills/Skills';
+import Footer from './components/footer/Footer';
 export interface Language {
   code: string;
   label: string;
@@ -48,6 +49,7 @@ function App() {
         <section className="section" id="skills">
           <Skills/>
         </section>
+        <Footer/>
       </Container>
     </>
   );
