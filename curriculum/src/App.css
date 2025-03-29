@@ -68,3 +68,16 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary--vertical);
+  border-radius: 5px;
+}
