@@ -16,6 +16,7 @@ const Skills: React.FC = () => {
     const skills = [
         {img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg", title: "Java Script"},
         {img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", title: "Type Script"},
+        {img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg", title: "Python"},
         {img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg", title: "Java"},
         {img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg", title: "Kotlin"},
         {img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg", title: "C"},
