@@ -39,7 +39,7 @@ const Intro = () => {
           </p>
           <div className="d-flex align-items-center justify-content-center gap-3">
             <SocialCircle icon={faGithub} link="https://github.com/DanieleF36" />
-            <SocialCircle icon={faLinkedin} link="www.linkedin.com/in/daniele-femia-10974b359" />
+            <SocialCircle icon={faLinkedin} link="https://www.linkedin.com/in/daniele-femia-10974b359" />
             <SocialCircle icon={faEnvelope} link="mailto:daniele.femia@outlook.com" />
           </div>
         </Col>
