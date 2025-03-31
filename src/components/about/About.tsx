@@ -17,7 +17,7 @@ const About = () => {
   return (
     <Container fluid>
       <Row className="align-items-center">
-        <Col md={6}>
+        <Col md={6} className="mb-3 mb-md-0">
           <ExamsAccordion/>
         </Col>
 

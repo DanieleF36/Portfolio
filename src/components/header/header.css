@@ -74,7 +74,8 @@
 
 .rounded-button {
   border-radius: 50px;
-  width: 8%;
+  width: auto;
+  padding: 0.5rem 1rem;
   background: var(--primary);
   border: none;
   transition: opacity 0.3s;

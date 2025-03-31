@@ -1,4 +1,4 @@
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import SkillCard from "./SkillCard";
 import "./skills.css"
 import { useTranslation } from "react-i18next";
@@ -37,14 +37,11 @@ const Skills: React.FC = () => {
         <Container fluid>
             <h1 className="skills-title">{t('skillsTitle')}</h1>
             <Row>
-                {
-                    skills.map((skill)=>{
-                        return <SkillCard 
-                        title={skill.title}
-                        img={skill.img}
-                        />
-                    })
-                }
+                {skills.map((skill, index) => (
+                    <Col key={index} xs={6} md={2} lg={2}>
+                        <SkillCard title={skill.title} img={skill.img} />
+                    </Col>
+                ))}
             </Row>
         </Container>
     );

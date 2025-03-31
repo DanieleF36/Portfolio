@@ -6,6 +6,13 @@
   position: relative;
 }
 
+@media (max-width: 767px) {
+  .footer p, 
+  .footer a {
+    font-size: 0.8rem; /* oppure il valore che preferisci */
+  }
+}
+
 .footer-divider {
   position: absolute;
   top: 0;

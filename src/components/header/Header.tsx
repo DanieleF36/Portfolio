@@ -76,7 +76,7 @@ const Header: React.FC<HeaderProps> = ({selectedLan, langs, changeLan}) => {
             />
           </Dropdown.Toggle>
 
-          <Dropdown.Menu>
+          <Dropdown.Menu align="end">
             {langs
               .filter(lang => lang.code !== selectedLan.code)
               .map(lang => (

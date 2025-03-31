@@ -63,7 +63,7 @@ body {
 
 .section {
   scroll-snap-align: start;
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

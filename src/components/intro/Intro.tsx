@@ -27,6 +27,7 @@ const Intro = () => {
             alt="Your Photo"
             roundedCircle
             fluid
+            className='intro-img'
           />
         </Col>
 

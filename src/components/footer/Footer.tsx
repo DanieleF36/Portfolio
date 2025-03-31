@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="footer-divider" />
       <Container>
         <Row>
-          <Col md={6}>
+          <Col xs={6} md={6}>
             <h3 className='footer-title'>{t('designTitle')}</h3>
             <p>{t('disignText')}</p>
             <a
@@ -30,7 +30,7 @@ const Footer = () => {
               {t('info')}
             </a>
           </Col>
-          <Col md={6} >
+          <Col xs={6} md={6}>
             <h3 className='footer-title'>{t('contactMe')}</h3>
             <p>Email: daniele.femia@outlook.com</p>
             <p>Telegram: Daniele_F36</p>

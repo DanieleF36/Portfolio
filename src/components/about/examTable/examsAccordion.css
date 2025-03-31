@@ -1,3 +1,7 @@
+.open-accordion{
+  margin-top: 10rem;
+}
+
 .accordion-header {
   cursor: pointer;
 }
